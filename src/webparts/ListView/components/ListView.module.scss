@@ -1,0 +1,47 @@
+@import '~office-ui-fabric-react/dist/sass/References.scss';
+
+.listView {
+
+  .title {
+    @include ms-font-xl;
+    @include ms-fontColor-black;
+  }
+
+  .list {
+    margin: 0 -0.5rem;
+  }
+
+  .listItem {
+    float: left;
+    width: 25%;    
+    box-sizing: border-box;
+    padding: 0.5rem;    
+
+    .itemContent {
+      position: relative;
+      height: 120px;
+      overflow: hidden;
+      padding: 0.5rem;    
+      box-sizing: border-box;
+      box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 25px 50px 0 rgba(0, 0, 0, 0.1);
+    }
+
+    .itemTitle {
+      @include ms-font-l;
+      font-weight: bold;
+    }
+
+    .itemDescription {
+      color: #888;      
+    }
+
+    .itemFooter {
+      text-align: center;
+      background-color: #CCC;
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 0;
+    }
+  }
+}

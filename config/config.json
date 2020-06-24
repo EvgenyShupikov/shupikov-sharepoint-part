@@ -1,0 +1,36 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "hello-web-zavod-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/helloWebZavod/HelloWebZavodWebPart.js",
+          "manifest": "./src/webparts/helloWebZavod/HelloWebZavodWebPart.manifest.json"
+        }
+      ]
+    },
+    "list-view-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/listView/ListViewWebPart.js",
+          "manifest": "./src/webparts/listView/ListViewWebPart.manifest.json"
+        }
+      ]
+    },
+    "list-editor-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/listEditor/ListEditorWebPart.js",
+          "manifest": "./src/webparts/listEditor/ListEditorWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "HelloWebZavodWebPartStrings": "lib/webparts/helloWebZavod/loc/{locale}.js",
+    "ListViewWebPartStrings": "lib/webparts/listView/loc/{locale}.js",
+    "ListEditorWebPartStrings": "lib/webparts/listEditor/loc/{locale}.js"
+  }
+}

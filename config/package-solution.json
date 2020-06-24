@@ -1,0 +1,13 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "shupikov-sharepoint-part-client-side-solution",
+    "id": "079950fd-b6f5-4299-b846-704b93fb553d",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "isDomainIsolated": false
+  },
+  "paths": {
+    "zippedPackage": "solution/shupikov-sharepoint-part.sppkg"
+  }
+}
